@@ -89,7 +89,7 @@ function VerifyEmail() {
               <br />
               <div className="form-group">
                 <button type="submit" className="signup-btn">
-                  Send login link
+                  Get the link
                 </button>
               </div>
             </div>
@@ -102,14 +102,17 @@ function VerifyEmail() {
             <p className="form-or">OR</p>
           </form>
           <br />
-          <a href="/accounts/emailsignup" className="forgot-signup-container">
+          <a href="/signup" className="forgot-signup-container">
             {" "}
             Create new account
           </a>
         </div>
       </div>
       <div className="forgot-login-container">
-        <a href="/accounts/login" className="forgot-login-content">
+        <a
+          href="/instagram/user/accounts/my_accounts/email/login"
+          className="forgot-login-content"
+        >
           {" "}
           Back to Log in
         </a>

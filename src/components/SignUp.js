@@ -214,6 +214,21 @@ function SignUp() {
           </form>
         </div>
       </div>
+      <div className="signup-login-container">
+        <p className="login-content">
+          Have an account{" "}
+          <a
+            href="/instagram/user/accounts/my_accounts/email/login"
+            style={{
+              textDecoration: "none",
+              color: "#008cff",
+              fontWeight: "500",
+            }}
+          >
+            Log in
+          </a>
+        </p>
+      </div>
     </>
   );
 }
