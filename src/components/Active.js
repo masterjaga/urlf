@@ -17,7 +17,7 @@ function Active() {
     }
     if (request.data.statusCode === 401) {
       window.alert(request.data.message);
-      navigate("/signup");
+      navigate("/email/signup");
     }
   }
 

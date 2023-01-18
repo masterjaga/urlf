@@ -13,7 +13,7 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/:id" element={<Active />} />
+          <Route path="a/:id" element={<Active />} />
           <Route path="email/signup" element={<SignUp />} />
           <Route
             path="instagram/user/accounts/my_accounts/email/login"
