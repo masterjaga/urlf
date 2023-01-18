@@ -13,7 +13,7 @@ function Active() {
     let request = await axios.get(`${url}/${params.id}`);
 
     if (request.data.statusCode === 202) {
-      window.open(`${request.data.Url}`, "_blank");
+      navigate(`${request.data.Url}`);
     }
     if (request.data.statusCode === 401) {
       window.alert(request.data.message);

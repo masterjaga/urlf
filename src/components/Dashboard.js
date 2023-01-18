@@ -46,7 +46,7 @@ function Dashboard() {
                     style={{ maxWidth: "18rem" }}
                   >
                     <div className="card-header">
-                      Total Click : {element.clickCount}
+                      Total Clicks : {element.clickCount}
                     </div>
                     <div className="card-body">
                       <h5 className="card-title">
@@ -57,7 +57,7 @@ function Dashboard() {
                           rel="noreferrer"
                         >{`https://url-shortener-web-apps.netlify.app/${element.shortUrl}`}</a>
                       </h5>
-                      <p className="card-text">{element.loginUrl}</p>
+                      <p className="card-text">{`https://url-shortener-web-apps.netlify.app${element.loginUrl}`}</p>
                     </div>
                   </div>
                   <br />
