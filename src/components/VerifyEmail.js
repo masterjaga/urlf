@@ -20,7 +20,7 @@ function VerifyEmail() {
         setColor("green");
         setTimeout(() => {
           setActiveResponse(false);
-        }, "3000");
+        }, "5000");
       }
       if (request.data.statusCode === 401) {
         setTimeout(() => {

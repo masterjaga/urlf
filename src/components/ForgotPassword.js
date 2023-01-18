@@ -28,17 +28,11 @@ function ForgotPassword() {
       if (request.data.statusCode === 401) {
         setMessages(request.data.message);
         setTimeout(() => {
-          navigate("/email/signup");
+          navigate("/password-reset/email/verification");
         }, "3000");
       }
       if (request.data.statusCode === 403) {
         setMessages(request.data.message);
-      }
-      if (request.data.statusCode === 404) {
-        setMessages(request.data.message);
-        setTimeout(() => {
-          navigate("/password-reset/email/verification");
-        }, "3000");
       }
       if (request.data.statusCode === 500) {
         console.log(request.data.message);
