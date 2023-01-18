@@ -51,11 +51,11 @@ function Dashboard() {
                     <div className="card-body">
                       <h5 className="card-title">
                         <a
-                          href={`https://url-shortener-web-apps.netlify.app/${element.shortUrl}`}
+                          href={`https://url-shortener-web-apps.netlify.app/a/${element.shortUrl}`}
                           className="card-title"
                           target="_blank"
                           rel="noreferrer"
-                        >{`https://url-shortener-web-apps.netlify.app/${element.shortUrl}`}</a>
+                        >{`https://url-shortener-web-apps.netlify.app/a/${element.shortUrl}`}</a>
                       </h5>
                       <p className="card-text">{`https://url-shortener-web-apps.netlify.app${element.loginUrl}`}</p>
                     </div>
