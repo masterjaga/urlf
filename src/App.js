@@ -5,9 +5,8 @@ import Login from "./components/Login";
 import SignUp from "./components/SignUp";
 import ForgotPassword from "./components/ForgotPassword";
 import VerifyEmail from "./components/VerifyEmail";
-
 import Active from "./components/Active";
-export const url = "http://localhost:8080";
+export const url = "https://url-shortener-task-backend.onrender.com";
 
 function App() {
   return (
