@@ -14,7 +14,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/:id" element={<Active />} />
-          <Route path="signup" element={<SignUp />} />
+          <Route path="email/signup" element={<SignUp />} />
           <Route
             path="instagram/user/accounts/my_accounts/email/login"
             element={<Login />}
@@ -29,7 +29,7 @@ function App() {
           />
 
           <Route path="Dashboard" element={<Dashboard />} />
-          <Route path="*" element={<Navigate to="/signup" />} />
+          <Route path="*" element={<Navigate to="/email/signup" />} />
         </Routes>
       </BrowserRouter>
     </>

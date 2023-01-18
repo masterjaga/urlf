@@ -18,10 +18,13 @@ function VerifyEmail() {
       setActiveResponse(true);
       if (request.data.statusCode === 200) {
         setColor("green");
+        setTimeout(() => {
+          setActiveResponse(false);
+        }, "3000");
       }
       if (request.data.statusCode === 401) {
         setTimeout(() => {
-          navigate("/accounts/emailsignup");
+          navigate("/email/signup");
         }, "3000");
       }
       if (request.data.statusCode === 500) {
@@ -102,7 +105,7 @@ function VerifyEmail() {
             <p className="form-or">OR</p>
           </form>
           <br />
-          <a href="/signup" className="forgot-signup-container">
+          <a href="/email/signup" className="forgot-signup-container">
             {" "}
             Create new account
           </a>

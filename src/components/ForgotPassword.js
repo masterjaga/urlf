@@ -28,7 +28,7 @@ function ForgotPassword() {
       if (request.data.statusCode === 401) {
         setMessages(request.data.message);
         setTimeout(() => {
-          navigate("/signup");
+          navigate("/email/signup");
         }, "3000");
       }
       if (request.data.statusCode === 403) {
@@ -148,7 +148,7 @@ function ForgotPassword() {
             <p className="form-or">OR</p>
           </form>
           <br />
-          <a href="/signup" className="forgot-signup-container">
+          <a href="/email/signup" className="forgot-signup-container">
             {" "}
             Create new account
           </a>

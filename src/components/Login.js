@@ -121,6 +121,22 @@ function Login() {
           </form>
         </div>
       </div>
+      <div className="signup-login-container">
+        <p className="login-content">
+          Don't have an account?
+          <a
+            href="/email/signup"
+            style={{
+              textDecoration: "none",
+              color: "#008cff",
+              fontWeight: "500",
+            }}
+          >
+            {" "}
+            Sign up
+          </a>
+        </p>
+      </div>
     </>
   );
 }
