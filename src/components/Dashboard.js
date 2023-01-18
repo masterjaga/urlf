@@ -46,7 +46,7 @@ function Dashboard() {
                     style={{ maxWidth: "18rem" }}
                   >
                     <div className="card-header">
-                      Total Click : {element.clickCount / 2}
+                      Total Click : {element.clickCount}
                     </div>
                     <div className="card-body">
                       <h5 className="card-title">
